@@ -1,0 +1,11 @@
+{
+  "name": "com.mamad.multirestester",
+  "version": "0.1.0",
+  "displayName": "MultiRes Tester",
+  "description": "This package can help you to test your UI system in a variaty of Resolutions and combinations with overlays like Banner Ads",
+  "dependencies": {
+    
+  },
+  "unity": "2019.2",
+  "_fingerprint": "a032a56e1a70334191d13a17241e2334460b122a"
+}

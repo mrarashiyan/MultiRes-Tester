@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0587b25c6d0a434597e35f55efa14f77, type: 3}
+  m_Name: MultiResTester Screen Config
+  m_EditorClassIdentifier: 
+  configs:
+  - screenName: Phone_00
+    screenWidth: 1612
+    screenHeight: 720
+  - screenName: Phone_01
+    screenWidth: 2340
+    screenHeight: 1080
+  - screenName: Phone_02
+    screenWidth: 2408
+    screenHeight: 1080
+  - screenName: Phone_03
+    screenWidth: 1920
+    screenHeight: 1200
+  - screenName: Phone_04
+    screenWidth: 2220
+    screenHeight: 1080
+  - screenName: Phone_05
+    screenWidth: 2460
+    screenHeight: 1080
+  - screenName: Phone_06
+    screenWidth: 2388
+    screenHeight: 1080
+  - screenName: Phone_07
+    screenWidth: 2960
+    screenHeight: 1440
+  - screenName: Phone_08
+    screenWidth: 3088
+    screenHeight: 1440
+  - screenName: Phone_09
+    screenWidth: 2312
+    screenHeight: 1080
+  - screenName: Phone_10
+    screenWidth: 2412
+    screenHeight: 1080
+  - screenName: Phone_11
+    screenWidth: 2652
+    screenHeight: 1200
+  - screenName: Phone_12
+    screenWidth: 3120
+    screenHeight: 1440
+  - screenName: Phone_13
+    screenWidth: 2400
+    screenHeight: 1080
+  - screenName: Phone_14
+    screenWidth: 1600
+    screenHeight: 720
+  - screenName: iPhone 13 Pro Max
+    screenWidth: 2778
+    screenHeight: 1284
+  - screenName: iPhone 13 Pro
+    screenWidth: 2532
+    screenHeight: 1170
+  - screenName: iPhone 13
+    screenWidth: 2532
+    screenHeight: 1170
+  - screenName: iPhone 13 Mini
+    screenWidth: 2340
+    screenHeight: 1080
+  - screenName: iPhone 12 Pro Max
+    screenWidth: 2778
+    screenHeight: 1284
+  - screenName: iPhone 12 Pro
+    screenWidth: 2532
+    screenHeight: 1170
+  - screenName: iPhone 12
+    screenWidth: 2532
+    screenHeight: 1170
+  - screenName: iPhone 12 Mini
+    screenWidth: 2340
+    screenHeight: 1080
+  - screenName: iPhone SE (2020)
+    screenWidth: 1334
+    screenHeight: 750
+  - screenName: iPad Pro 12.9
+    screenWidth: 2732
+    screenHeight: 2048
+  - screenName: iPad Pro 11
+    screenWidth: 2388
+    screenHeight: 1668
+  - screenName: iPad Air (4th Gen)
+    screenWidth: 2360
+    screenHeight: 1640
+  - screenName: iPad 9th Gen
+    screenWidth: 2160
+    screenHeight: 1620
+  - screenName: iPad Mini (6th Gen)
+    screenWidth: 2266
+    screenHeight: 1488
+  overlays:
+  - isEnabled: 1
+    overlayName: Banner Ad
+    overlayColor: {r: 0, g: 0.1521008, b: 1, a: 1}
+    overlayPosition: 7
+    overlayWidth: 60
+    widthSizeUnit: 0
+    overlayHeight: 15
+    heightSizeUnit: 0
