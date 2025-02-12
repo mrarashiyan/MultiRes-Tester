@@ -2,6 +2,7 @@
 
 namespace MultiResTester.Utility
 {
+#if UNITY_EDITOR
     public class TextureHelper
     {
         public static Texture2D DrawRedRectangle(Texture2D texture, int x, int y, int width, int height,Color fillColor)
@@ -38,4 +39,5 @@ namespace MultiResTester.Utility
             return texture;
         }
     }
+#endif
 }

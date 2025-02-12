@@ -6,6 +6,7 @@ using UnityEngine;
 
 namespace MultiResTester.Utility
 {
+#if UNITY_EDITOR
     public class GameViewSizeHelper
     {
         #region public enum
@@ -335,4 +336,5 @@ namespace MultiResTester.Utility
 
         #endregion types
     }
+#endif
 }

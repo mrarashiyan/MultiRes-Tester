@@ -5,6 +5,7 @@ using UnityEngine;
 
 namespace MultiResTester.Scripts.Editor
 {
+#if UNITY_EDITOR
     public class MultiResRecorderWindow : EditorWindow
     {
         private MultiResScreenConfig screenConfig;
@@ -74,4 +75,5 @@ namespace MultiResTester.Scripts.Editor
 
         
     }
+#endif
 }
