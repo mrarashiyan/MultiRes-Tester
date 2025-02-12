@@ -20,9 +20,12 @@ namespace MultiResTester.Scripts.Runtime
 
         public void TryStartRecording()
         {
+        #if UNITY_EDITOR
             StartCoroutine(CoroutineTryStartRecording());
+        #endif
         }
 
+#if UNITY_EDITOR
         private IEnumerator CoroutineTryStartRecording()
         {
             Debug.Log("MultiRes Testing is Started!");
@@ -179,5 +182,6 @@ namespace MultiResTester.Scripts.Runtime
         {
             GameViewSizeHelper.RemoveCustomSize(GameViewSizeHelper.GetCurrentGroupType(), gameSizeView);
         }
+#endif
     }
 }
